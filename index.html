@@ -5,77 +5,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tribe UI</title>
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: orange;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    max-width: 800px;
+  /* Existing styles here */
+
+  .logo {
+    display: block;
     margin: 0 auto;
-    padding: 20px;
+    width: 100px;
   }
-  .header {
+
+  .button-container {
     text-align: center;
-    padding: 20px;
-    background-color: orange;
-    color: white;
-  }
-  .section {
     margin: 20px 0;
   }
-  .section-header {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  .content {
-    padding: 15px;
-    border: 2px solid green;
-    border-radius: 5px;
-  }
-  .footer {
-    text-align: center;
-    padding: 10px;
-    background-color: green;
+
+  .action-button {
+    padding: 10px 20px;
+    background-color: orange;
     color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
   }
+
+  /* Other styles remain unchanged */
 </style>
 </head>
 <body>
   <div class="header">
+    <img class="logo" src="tribe.png" alt="Tribe Logo">
     <h1>Bitpac Management Interface</h1>
   </div>
   <div class="container">
-    <div class="section">
-      <div class="section-header">Npub and Bitpac</div>
-      <div class="content">
-        <!-- Content related to Npub and Bitpac here -->
-      </div>
+    <div class="button-container">
+      <button class="action-button">Join Bitpac</button>
+      <button class="action-button">Create New Bitpac</button>
     </div>
     <div class="section">
-      <div class="section-header">Multisig Signature</div>
-      <div class="content">
-        <!-- Content related to Multisig Signature here -->
-      </div>
+      <!-- Content for Joining Bitpac -->
     </div>
     <div class="section">
-      <div class="section-header">Lightning Network Invoice</div>
-      <div class="content">
-        <!-- Content related to Lightning Network Invoice here -->
-      </div>
+      <!-- Content for Creating New Bitpac -->
     </div>
     <div class="section">
-      <div class="section-header">Ordinals</div>
-      <div class="content">
-        <!-- Content related to Ordinals here -->
-      </div>
+      <!-- Content for Bitpac Dashboard -->
     </div>
   </div>
   <div class="footer">
     <p>&copy; 2023 Tribe. All rights reserved.</p>
   </div>
 </body>
+</html>
+
 </html>
